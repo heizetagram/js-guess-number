@@ -40,7 +40,7 @@ function checkScoreZero() {
 }
 
 function plusScore() {
-    score++;
+    score += 3;
     actScore.textContent = score.toString();
     checkScoreZero();
 }
